@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="/assets/favico/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./image/favico/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Rocketflix</title>
+</head>
+
+<body>
+  <main>
+    <img src="./image/shuffle.svg" alt="" id="img">
+    <h1>Don't know what to watch ? </h1>
+
+    <div class="container">
+      <div class="loading-container">
+        <div class="loading"></div>
+      </div>
+      <img src="" alt="" id="imgMovie">
+
+      <div class="info">
+          <h2 class="title"></h2>
+          <p class="description">
+            <!-- Informação vem do JS que consulta na API -->
+          </p>
+      </div>
+    </div>
+
+      <button class="btn">
+        <img src="./image/favico/favicon-32x32.png" alt="">
+        Encontrar filme
+      </button>
+ 
+
+    <p>
+      Click on 'Find movie' and we'll bring you information <br>
+of a movie for you to watch today
+    </p>
+  </main>
+
+
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
